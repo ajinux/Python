@@ -26,4 +26,26 @@ for n in range(c,d):
       url=a+"00"+str(n)
       name=b+"00"+str(n)
       web_image_download(url,name)
+'''
+Works only inside KCT i.e connected to the kct network,
+Instruction to download the image:
+NEEDS:
+  1)This PY source code,
+  2)A py terminal to execute the programm,
+step 1:
+  Execute the PY programm and in the terminal,
+  "Enter the main url: http://10.1.105.24/opac/memberaccess1.asp?id=14bit"
+  if you want to download images of IT students then change last three characters to bit
+  and so on for other departments,
+step 2:
+  "Enter the main name:14BIT"(Name of the image)
+step 3:
+  "Enter the starting Number:1"
+  "Enter the ending number :57"
+Thatz it,just press Enter and you will be with all those bunch of photos...
+  Happy learning!!
+Ref URL:
+http://10.1.105.24/opac/memberaccess1.asp?id=14bit
+http://10.1.105.24/opac/memberaccess1.asp?id=14bce
+'''    
 
