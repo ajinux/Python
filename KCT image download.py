@@ -2,9 +2,9 @@ __author__ = 'Ajithkumarsekar'
 import urllib.request
 def web_image_download(url,name):
     name=name+".jpg"
-    print(name,"Downloaded Successfully!")
     try:
      urllib.request.urlretrieve(url,name)
+     print(name,"Downloaded Successfully!")
     except urllib.error.HTTPError:
         print(name," Image not found!\n")
     except:
