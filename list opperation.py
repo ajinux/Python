@@ -1,6 +1,5 @@
 __author__ = 'Ajithkumarsekar'
 list=[2,7,-12,4,100,241,92]
-#Always strings should be under double quotations
 print(list)
 
 list.sort()
