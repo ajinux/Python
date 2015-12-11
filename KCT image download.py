@@ -13,8 +13,8 @@ a=input("Enter the main url:")
 b=input("Enter the main name:")
 c=int(input("Enter the starting Number:"))
 d=int(input("Enter the ending number :"))
-for n in range(c,d):
-    if n>=10 & n<100:
+for n in range(c,d+1):
+    if n>=10 and n<100:
       url=a+"0"+str(n)
       name=b+"0"+str(n)
       web_image_download(url,name)
